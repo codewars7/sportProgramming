@@ -17,9 +17,11 @@ I use this repo to:
 
 Each folder represents a topic or category of problems:
 
+```
 sportProgramming/
 ├── arrays/
 ├── linked_lists/
+```
 
 
 ## 🚀 Workflow
