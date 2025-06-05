@@ -21,6 +21,7 @@ Each folder represents a topic or category of problems:
 sportProgramming/
 ├── arrays/
 ├── linkedLists/
+├── stacks/
 ```
 
 
