@@ -22,6 +22,7 @@ sportProgramming/
 ├── arrays/
 ├── graphs/
 ├── linkedLists/
+├── sorting/
 ├── stacks/
 ├── strings/
 ```
