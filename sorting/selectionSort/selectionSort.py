@@ -5,7 +5,7 @@ def selectionSort(array):
 
     for i in range(len(array)):
         smallestIndex = i
-        for j in range(i, len(array)):
+        for j in range(i + 1, len(array)):
             if array[j] < array[smallestIndex]:
                 smallestIndex = j
 
