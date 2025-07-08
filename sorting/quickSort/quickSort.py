@@ -1,3 +1,4 @@
+import timeit
 # O(n log n) time | O(log n) space
 
 
@@ -44,8 +45,9 @@ def swap(i, j, array):
 
 
 if __name__ == "__main__":
-    arr = [3, 6, 8, 10, 1, 2, 1]
+    arr = [3, 6, 8, 10, 1, 2, 1] * 4
     print("Original array:", arr)
     sorted_arr = quickSort(arr)
+    sorted_arr = timeit.timeit("quickSort([3, 6, 8, 10, 1, 2, 1] * 4)", setup="from __main__ import quickSort", number=100000)
     print("Sorted array:", sorted_arr)
     # Output: Sorted array: [1, 1, 2, 3, 6, 8, 10
