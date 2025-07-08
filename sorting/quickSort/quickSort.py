@@ -39,7 +39,8 @@ def quickSortHelper(array, startIdx, endIdx):
 def swap(i, j, array):
     array[i], array[j] = array[j], array[i]
 
-    # Example usage:
+
+# Example usage:
 
 
 if __name__ == "__main__":
